@@ -1,25 +1,24 @@
-import characters.Player;
+import heroTypes.Faun;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class PlayerTest {
-
-    Player player;
+public class FaunTest {
+    Faun faun;
 
     @Before
     public void before(){
-        player = new Player("Michael");
+        faun = new Faun("Pancake");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Michael", player.getName());
+        assertEquals("Pancake", faun.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(100, player.getHP());
+        assertEquals(100, faun.getHP());
     }
 }

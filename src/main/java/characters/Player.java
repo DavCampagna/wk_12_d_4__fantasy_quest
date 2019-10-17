@@ -5,9 +5,9 @@ public class Player {
     String name;
     int HP;
 
-    public Player(String name, int HP){
+    public Player(String name){
         this.name = name;
-        this.HP = HP;
+        this.HP = 100;
     }
 
     public String getName() {

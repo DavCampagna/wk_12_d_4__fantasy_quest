@@ -1,25 +1,24 @@
-import characters.Player;
+import heroTypes.Hobbit;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class PlayerTest {
-
-    Player player;
+public class HobbitTest {
+    Hobbit hobbit;
 
     @Before
     public void before(){
-        player = new Player("Michael");
+        hobbit = new Hobbit("Vallhorhund");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Michael", player.getName());
+        assertEquals("Vallhorhund", hobbit.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(100, player.getHP());
+        assertEquals(100, hobbit.getHP());
     }
 }
