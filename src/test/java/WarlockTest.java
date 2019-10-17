@@ -1,24 +1,25 @@
-import enemyTypes.Orc;
 import org.junit.Before;
 import org.junit.Test;
+import mageTypes.Warlock;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class OrcTest {
-    Orc orc;
+public class WarlockTest {
+
+    Warlock warlock;
 
     @Before
     public void before(){
-        orc = new Orc("Beatrice the Prude", 50);
+        warlock = new Warlock("Alex the IntelliJ");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Beatrice the Prude", orc.getName());
+        assertEquals("Alex the IntelliJ", warlock.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(50, orc.getHP());
+        assertEquals(100, warlock.getHP());
     }
 }

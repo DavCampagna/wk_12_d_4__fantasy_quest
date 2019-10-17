@@ -1,24 +1,24 @@
-import enemyTypes.Orc;
+import playerTypes.Healer;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class OrcTest {
-    Orc orc;
+public class HealerTest {
+    Healer healer;
 
     @Before
     public void before(){
-        orc = new Orc("Beatrice the Prude", 50);
+        healer = new Healer("Lemsip the Soother");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Beatrice the Prude", orc.getName());
+        assertEquals("Lemsip the Soother", healer.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(50, orc.getHP());
+        assertEquals(100, healer.getHP());
     }
 }
