@@ -9,12 +9,12 @@ public class FaunTest {
 
     @Before
     public void before(){
-        faun = new Faun("Pancake");
+        faun = new Faun("Pan the pancake Eater");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Pancake", faun.getName());
+        assertEquals("Pan the pancake Eater", faun.getName());
     }
 
     @Test

@@ -10,12 +10,12 @@ public class PlayerTest {
 
     @Before
     public void before(){
-        player = new Player("Michael");
+        player = new Player("Michael the Brave");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Michael", player.getName());
+        assertEquals("Michael the Brave", player.getName());
     }
 
     @Test

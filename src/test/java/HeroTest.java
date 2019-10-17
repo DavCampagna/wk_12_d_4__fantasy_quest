@@ -9,12 +9,12 @@ public class HeroTest {
 
     @Before
     public void before(){
-        hero = new Hero("Joe");
+        hero = new Hero("Joe the Resourceful");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Joe", hero.getName());
+        assertEquals("Joe the Resourceful", hero.getName());
     }
 
     @Test

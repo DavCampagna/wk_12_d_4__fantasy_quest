@@ -9,12 +9,12 @@ public class EnemyTest {
 
     @Before
     public void before(){
-        enemy = new Enemy("Benjamesh", 200);
+        enemy = new Enemy("Benjamesh the Frustrated", 200);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Benjamesh", enemy.getName());
+        assertEquals("Benjamesh the Frustrated", enemy.getName());
     }
 
     @Test
