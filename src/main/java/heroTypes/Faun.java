@@ -1,7 +1,7 @@
 package heroTypes;
-import characters.Player;
+import playerTypes.Hero;
 
-public class Faun extends Player{
+public class Faun extends Hero{
     public Faun(String name) {
         super(name);
     }

@@ -1,7 +1,7 @@
 package heroTypes;
-import characters.Player;
+import playerTypes.Hero;
 
-public class Hobbit extends Player {
+public class Hobbit extends Hero {
     public Hobbit(String name) {
         super(name);
     }
