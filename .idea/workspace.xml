@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922e1286-1676-48d7-8156-eb71f2ca280e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AxeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AxeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HobbitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HobbitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SwordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SwordTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -37,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Sword.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="34" />
+              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -47,13 +41,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/playerTypes/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Axe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#0#213#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,22 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HobbitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-start-column="2" selection-end-line="23" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SwordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,12 +105,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#0#618#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="348">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,17 +189,17 @@
         <option value="$PROJECT_DIR$/src/test/java/FaunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EnemyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/enemies/Troll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/playerTypes/Hero.java" />
         <option value="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/HobbitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AxeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/weapons/Weapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/characters/Enemy.java" />
         <option value="$PROJECT_DIR$/src/main/java/weapons/Sword.java" />
         <option value="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/weapons/Axe.java" />
         <option value="$PROJECT_DIR$/src/test/java/SwordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AxeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/weapons/Axe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/playerTypes/Hero.java" />
       </list>
     </option>
   </component>
@@ -409,9 +405,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FaunTest_hasWeapon - 2019.10.20 at 12h 41m 37s.xml">
-      <configuration name="FaunTest.hasWeapon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FaunTest_hasWeapon - 2019.10.20 at 12h 42m 34s.xml">
       <configuration name="FaunTest.hasWeapon" configurationId="JUnit" />
     </history-entry>
@@ -439,10 +432,12 @@
     <history-entry file="All_in_all_day_lab__fantasy_world - 2019.10.20 at 13h 14m 37s.xml">
       <configuration name="All in all_day_lab__fantasy_world" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_all_day_lab__fantasy_world - 2019.10.20 at 13h 25m 35s.xml">
+      <configuration name="All in all_day_lab__fantasy_world" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -695,18 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/playerTypes/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/ISpell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -754,16 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HobbitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -784,18 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -806,7 +767,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -821,12 +782,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Axe.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" />
+          <caret selection-end-line="30" />
           <folding>
-            <element signature="e#0#213#0" expanded="true" />
+            <element signature="e#0#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,7 +795,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Sword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="34" />
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
@@ -843,12 +804,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SwordTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/weapons/Axe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SwordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SoftwareDeveloperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/playerTypes/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
           </folding>
         </state>
       </provider>

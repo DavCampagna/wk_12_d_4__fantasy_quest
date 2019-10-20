@@ -1,6 +1,7 @@
 package playerTypes;
 
 import behaviours.IWeapon;
+import characters.Enemy;
 import characters.Player;
 
 public abstract class Hero extends Player {
@@ -18,5 +19,9 @@ public abstract class Hero extends Player {
 
     public void changeWeapon(IWeapon newWeapon){
         this.weapon = newWeapon;
+    }
+
+    public void attack(Enemy enemy){
+        this.weapon.attack(enemy);
     }
 }

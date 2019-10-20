@@ -1,4 +1,5 @@
 import enemies.Troll;
+import org.junit.Rule;
 import weapons.Axe;
 import weapons.Sword;
 import heroTypes.SoftwareDeveloper;
@@ -41,5 +42,11 @@ public class SoftwareDeveloperTest {
     public void canChangeWeapon() {
         softwareDeveloper.changeWeapon(axe);
         assertEquals(axe, softwareDeveloper.getWeapon());
+    }
+
+    @Test
+    public void canAttackEnemyWithWeapon(){
+        softwareDeveloper.attack(troll);
+        assertEquals(175, troll.getHP());
     }
 }
