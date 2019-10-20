@@ -1,3 +1,4 @@
+import weapons.Axe;
 import weapons.Sword;
 import heroTypes.SoftwareDeveloper;
 import org.junit.Before;
@@ -9,10 +10,12 @@ public class SoftwareDeveloperTest {
 
     SoftwareDeveloper softwareDeveloper;
     Sword sword;
+    Axe axe;
 
     @Before
     public void before(){
         sword = new Sword("JavaScript", 25);
+        axe = new Axe("Shredder", 30);
         softwareDeveloper = new SoftwareDeveloper("Shona the Wise", sword);
     }
 
@@ -30,4 +33,11 @@ public class SoftwareDeveloperTest {
     public void hasWeapon() {
         Sword sword = (Sword) softwareDeveloper.getWeapon();
         assertEquals("JavaScript", sword.getWeaponType());}
+
+    @Test
+    public void canChangeWeapon() {
+        softwareDeveloper.changeWeapon(axe);
+        assertEquals(axe, softwareDeveloper.getWeapon());
+
+    }
 }

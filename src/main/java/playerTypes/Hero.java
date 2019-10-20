@@ -15,4 +15,8 @@ public abstract class Hero extends Player {
     public IWeapon getWeapon() {
         return weapon;
     }
+
+    public void changeWeapon(IWeapon newWeapon){
+        this.weapon = newWeapon;
+    }
 }

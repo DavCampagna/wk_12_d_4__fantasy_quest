@@ -1,6 +1,6 @@
 package characters;
 
-public class Enemy {
+public abstract class Enemy {
 
     String name;
     int HP;
@@ -18,7 +18,7 @@ public class Enemy {
         return HP;
     }
 
-    public void takeDamage(int amount) {
-        this.HP = this.HP - amount;
-    }
+//    public void takeDamage(int amount) {
+////        this.HP = this.HP - amount;
+////    }
 }

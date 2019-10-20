@@ -1,5 +1,5 @@
 import weapons.Sword;
-import characters.Enemy;
+import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,12 +7,12 @@ import static junit.framework.TestCase.assertEquals;
 
 public class SwordTest {
     Sword sword;
-    Enemy enemy;
+    Troll troll;
 
     @Before
     public void before(){
         sword = new Sword("JavaScript", 25);
-        enemy = new Enemy("Benjamesh the Frustrated", 200);
+        troll = new Troll("Benjamesh the Frustrated", 200);
     }
 
     @Test
@@ -29,5 +29,6 @@ public class SwordTest {
     public void canAttack(){
         assertEquals(25, sword.getDamageValue());
     }
+
 
 }
