@@ -18,7 +18,7 @@ public abstract class Enemy {
         return HP;
     }
 
-    public void takeDamage(int amount) {
-        this.HP = this.HP - amount;
+    public void takeDamage(int damageValue) {
+        this.HP = this.HP - damageValue;
     }
 }
