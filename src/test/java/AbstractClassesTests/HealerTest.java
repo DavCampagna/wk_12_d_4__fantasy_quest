@@ -1,25 +1,24 @@
-//import weapons.Sword;
-//import heroTypes.Hobbit;
+//import playerTypes.Healer;
 //import org.junit.Before;
 //import org.junit.Test;
 //
 //import static junit.framework.TestCase.assertEquals;
 //
-//public class HobbitTest {
-//    Hobbit hobbit;
+//public class HealerTest {
+//    Healer healer;
 //
 //    @Before
 //    public void before(){
-//        hobbit = new Hobbit("Vallhorhund",);
+//        healer = new Healer("Lemsip the Soother");
 //    }
 //
 //    @Test
 //    public void hasName(){
-//        assertEquals("Vallhorhund", hobbit.getName());
+//        assertEquals("Lemsip the Soother", healer.getName());
 //    }
 //
 //    @Test
 //    public void hasHP(){
-//        assertEquals(100, hobbit.getHP());
+//        assertEquals(100, healer.getHP());
 //    }
 //}

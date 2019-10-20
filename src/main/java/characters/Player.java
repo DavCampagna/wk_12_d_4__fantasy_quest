@@ -1,6 +1,6 @@
 package characters;
 
-public class Player {
+public abstract class Player {
 
     String name;
     int HP;

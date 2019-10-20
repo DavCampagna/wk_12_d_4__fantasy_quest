@@ -1,9 +1,18 @@
 package playerTypes;
 
+import behaviours.IWeapon;
 import characters.Player;
 
-public class Hero extends Player {
-    public Hero(String name) {
+public abstract class Hero extends Player {
+
+    public IWeapon weapon;
+
+    public Hero(String name, IWeapon weapon) {
         super(name);
+        this.weapon = weapon;
+    }
+
+    public IWeapon getWeapon() {
+        return weapon;
     }
 }

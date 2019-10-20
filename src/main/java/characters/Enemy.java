@@ -17,4 +17,8 @@ public class Enemy {
     public int getHP() {
         return HP;
     }
+
+    public void takeDamage(int amount) {
+        this.HP = this.HP - amount;
+    }
 }

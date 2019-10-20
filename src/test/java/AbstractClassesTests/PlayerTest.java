@@ -1,25 +1,25 @@
-//import weapons.Sword;
-//import heroTypes.Hobbit;
+//import characters.Player;
 //import org.junit.Before;
 //import org.junit.Test;
 //
 //import static junit.framework.TestCase.assertEquals;
 //
-//public class HobbitTest {
-//    Hobbit hobbit;
+//public class PlayerTest {
+//
+//    Player player;
 //
 //    @Before
 //    public void before(){
-//        hobbit = new Hobbit("Vallhorhund",);
+//        player = new Player("Michael the Brave");
 //    }
 //
 //    @Test
 //    public void hasName(){
-//        assertEquals("Vallhorhund", hobbit.getName());
+//        assertEquals("Michael the Brave", player.getName());
 //    }
 //
 //    @Test
 //    public void hasHP(){
-//        assertEquals(100, hobbit.getHP());
+//        assertEquals(100, player.getHP());
 //    }
 //}
