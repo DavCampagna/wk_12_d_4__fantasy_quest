@@ -1,3 +1,4 @@
+import enemies.Troll;
 import weapons.Axe;
 import weapons.Sword;
 import heroTypes.SoftwareDeveloper;
@@ -11,11 +12,13 @@ public class SoftwareDeveloperTest {
     SoftwareDeveloper softwareDeveloper;
     Sword sword;
     Axe axe;
+    Troll troll;
 
     @Before
     public void before(){
         sword = new Sword("JavaScript", 25);
         axe = new Axe("Shredder", 30);
+        troll = new Troll("Benjamesh the Frustrated", 200);
         softwareDeveloper = new SoftwareDeveloper("Shona the Wise", sword);
     }
 
@@ -38,6 +41,5 @@ public class SoftwareDeveloperTest {
     public void canChangeWeapon() {
         softwareDeveloper.changeWeapon(axe);
         assertEquals(axe, softwareDeveloper.getWeapon());
-
     }
 }

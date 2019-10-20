@@ -1,4 +1,3 @@
-//import weapons.Sword;
 //import heroTypes.Hobbit;
 //import org.junit.Before;
 //import org.junit.Test;

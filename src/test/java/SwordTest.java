@@ -27,7 +27,8 @@ public class SwordTest {
 
     @Test
     public void canAttack(){
-        assertEquals(25, sword.getDamageValue());
+        sword.attack(troll);
+        assertEquals(175, troll.getHP());
     }
 
 
